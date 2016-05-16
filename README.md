@@ -17,13 +17,12 @@ On power up, DFT and FFT functions are tested and processing time is shown via s
       - intermediate stage: 8, 7, 5, 4, 3, 2  
       - terminal stage:     16, 8, 5, 4, 3, 2  
   - Implementation: recursively implemented:  
-        a core function calls one of radix-specific functions depending on its input data count parameter M, and the called radix-specific function calls the core function
-        to perform sub-M FFT.  
+        a core function calls one of radix-specific functions depending on its input data count parameter M, and the called radix-specific function calls the core function to perform sub-M FFT.  
 
   - performance summary
     ![FFT(real) performance summary](./FFT_real_performance.png)
     For further details, see the [20160514_FFT_performance_on_RX621_RX220.pdf](20160514_FFT_performance_on_RX621_RX220.pdf) file.  
-
+ - For a RX220 development board version, see [https://github.com/radioshack16/rx220_sample](https://github.com/radioshack16/rx220_sample) project.
 ------
 # License: MIT License  
 - See the [LICENSE.txt](LICENSE.txt) file for details.
