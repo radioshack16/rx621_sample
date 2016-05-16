@@ -1,0 +1,89 @@
+Optimizing Linkage Editor (V.10.02.00.000)        16-May-2016 19:14:38
+
+*** Options ***
+
+-subcommand=C:\githubwork\rx621_sample\rx621_sample\Release\rx621_sample.hlk
+-noprelink
+-nodebug
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="C:\githubwork\rx621_sample\rx621_sample\Release\rx621_sample.map"
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/01000,PResetPRG/0FFF80000,C_1,C_2,C,C$*,D_1,D_2,D,P,PIntPRG,W*,L/0FFF80100,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\dbsct.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\dft.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\fft_n_small.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\fft_real_n_recur.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\hwsetup.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\hwsetup_rx621.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\intprg.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\lowlvl.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\lowsrc.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\resetprg.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\rx621_sample.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\sbrk.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\sci.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\stack_var_adrs.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\util.obj"
+-input="C:\githubwork\rx621_sample\rx621_sample\Release\vecttbl.obj"
+-library="C:\githubwork\rx621_sample\rx621_sample\Release\rx621_sample.lib"
+-output="C:\githubwork\rx621_sample\rx621_sample\Release\rx621_sample.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+B_1
+                                  00001000  00001879       87a   1
+R_1
+                                  0000187a  000018ca        51   1
+B_2
+                                  000018cc  000018cc         0   2
+R_2
+                                  000018cc  000018cc         0   2
+B
+                                  000018cc  00014e43     13578   4
+R
+                                  00014e44  00015117       2d4   4
+SU
+                                  00015118  00015717       600   4
+SI
+                                  00015718  00015a17       300   4
+PResetPRG
+                                  fff80000  fff8003c        3d   1
+C_1
+                                  fff80100  fff8065a       55b   1
+C_2
+                                  fff8065c  fff8085d       202   2
+C
+                                  fff80860  fff80ac3       264   4
+C$DSEC
+                                  fff80ac4  fff80ae7        24   4
+C$BSEC
+                                  fff80ae8  fff80aff        18   4
+C$VECT
+                                  fff80b00  fff80eff       400   4
+D_1
+                                  fff80f00  fff80f50        51   1
+D_2
+                                  fff80f52  fff80f52         0   2
+D
+                                  fff80f54  fff81227       2d4   4
+P
+                                  fff81228  fff889cb      77a4   1
+PIntPRG
+                                  fff889cc  fff88b55       18a   1
+W_1
+                                  fff88b56  fff88b56         0   1
+W_2
+                                  fff88b56  fff88c2f        da   2
+W
+                                  fff88c30  fff88c30         0   4
+L
+                                  fff88c30  fff89364       735   4
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4

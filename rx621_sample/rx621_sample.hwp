@@ -1,0 +1,236 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.8" 
+[PROJECT_DETAILS]
+"rx621_sample" "C:\githubwork\rx621_sample\rx621_sample" "C:\githubwork\rx621_sample\rx621_sample\rx621_sample.hwp" "RX" "Renesas RX Standard" "Application" "RX600" "RX62N" 
+[INFORMATION]
+"プロジェクト情報がありません" 
+[TOOL_CHAIN]
+"Renesas RX Standard Toolchain" "1.2.1.0" 
+[CONFIGURATIONS]
+"Debug" "C:\githubwork\rx621_sample\rx621_sample\Debug" 
+"Release" "C:\githubwork\rx621_sample\rx621_sample\Release" 
+[BUILD_PHASES]
+"Renesas OptLinker" 1 
+"Renesas RX Assembler" 1 
+"Renesas RX C/C++ Compiler" 1 
+"Renesas RX C/C++ Library Generator" 1 
+"Renesas RX Configurator" 1 
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"Absolute file" "ABS" 
+"Assembly include file" "INC" 
+"Assembly list file" "LST" 
+"Assembly source file" "S" 
+"Assembly source file" "SRC" 
+"Binary file" "BIN" 
+"C header file" "H" 
+"C source file" "C" 
+"C++ header file" "HPP" 
+"C++ source file" "CC" 
+"C++ source file" "CP" 
+"C++ source file" "CPP" 
+"CPU information file" "CPU" 
+"Calling information file" "CAL" 
+"Configuration file" "CFG" 
+"Debug information file" "DBG" 
+"Hex file" "HEX" 
+"Library file" "LIB" 
+"Library information file" "LBP" 
+"Linkage map file" "MAP" 
+"Linkage symbol file" "FSY" 
+"Object file" "OBJ" 
+"Optimize map file" "bls" 
+"Preprocessed C source file" "P" 
+"Preprocessed C++ source file" "PP" 
+"Relocatable file" "REL" 
+"Rts information file" "RTS" 
+"S-Record file" "MOT" 
+"Stack information file" "SNI" 
+"TD include object file" "RTI" 
+[FILE_GROUPS]
+"Absolute file" "BIN" "NONE" "" 
+"Assembly include file" "TEXT" "EDITOR" "" 
+"Assembly list file" "TEXT" "EDITOR" "" 
+"Assembly source file" "TEXT" "EDITOR" "" 
+"Binary file" "BIN" "NONE" "" 
+"C header file" "TEXT" "EDITOR" "" 
+"C source file" "TEXT" "EDITOR" "" 
+"C++ header file" "TEXT" "EDITOR" "" 
+"C++ source file" "TEXT" "EDITOR" "" 
+"CPU information file" "BIN" "NONE" "" 
+"Calling information file" "BIN" "NONE" "" 
+"Configuration file" "TEXT" "EDITOR" "" 
+"Debug information file" "BIN" "NONE" "" 
+"Hex file" "TEXT" "EDITOR" "" 
+"Library file" "BIN" "NONE" "" 
+"Library information file" "TEXT" "EDITOR" "" 
+"Linkage map file" "TEXT" "EDITOR" "" 
+"Linkage symbol file" "TEXT" "EDITOR" "" 
+"Object file" "BIN" "NONE" "" 
+"Optimize map file" "BIN" "NONE" "" 
+"Preprocessed C source file" "TEXT" "EDITOR" "" 
+"Preprocessed C++ source file" "TEXT" "EDITOR" "" 
+"Relocatable file" "BIN" "NONE" "" 
+"Rts information file" "BIN" "NONE" "" 
+"S-Record file" "TEXT" "EDITOR" "" 
+"Stack information file" "BIN" "NONE" "" 
+"TD include object file" "BIN" "NONE" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+"Renesas OptLinker" 
+"Renesas RX Assembler" 
+"Renesas RX C/C++ Compiler" 
+"Renesas RX C/C++ Library Generator" 
+"Renesas RX Configurator" 
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+[CUSTOM_PHASE_INPUT_GROUP]
+[CUSTOM_PHASE_OUTPUT_SYNTAX]
+[BUILD_ORDER]
+"Renesas RX C/C++ Library Generator" 1 
+"Renesas RX C/C++ Compiler" 1 
+"Renesas RX Assembler" 1 
+"Renesas OptLinker" 1 
+"Renesas RX Configurator" 0 
+[BUILD_PHASE_DETAILS]
+"Renesas OptLinker" "Object file|Library file|Relocatable file" 0 
+"Renesas RX Assembler" "Assembly source file|Linkage symbol file" 1 
+"Renesas RX C/C++ Compiler" "C source file|C++ source file" 1 
+"Renesas RX C/C++ Library Generator" "" 0 
+"Renesas RX Configurator" "Configuration file" 0 
+[BUILD_FILE_ORDER_Assembly source file]
+"Renesas RX Assembler" 1 
+[BUILD_FILE_ORDER_C source file]
+"Renesas RX C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_C++ source file]
+"Renesas RX C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_Linkage symbol file]
+"Renesas RX Assembler" 1 
+[SCRAP]
+"Project Generator Setup File" "" 
+[MAPPINGS]
+"Assembly source file" "Renesas RX Assembler" "Renesas RX C/C++ Compiler" 
+"Library file" "Renesas OptLinker" "Renesas RX C/C++ Library Generator" 
+"Object file" "Renesas OptLinker" "Renesas RX Assembler" 
+"Object file" "Renesas OptLinker" "Renesas RX C/C++ Compiler" 
+[PROJECT_FILES]
+"C:\githubwork\rx621_sample\rx621_sample\dbsct.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\dft.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\fft_n_small.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\fft_real_n_recur.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\hwsetup.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\hwsetup_rx621.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\intprg.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\lowlvl.src" "User" "Assembly source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\lowsrc.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\resetprg.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\rx621_sample.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\sbrk.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\sci.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\stack_var_adrs.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\util.c" "User" "C source file" 2 
+"C:\githubwork\rx621_sample\rx621_sample\vecttbl.c" "User" "C source file" 2 
+[FOLDER]
+"Assembly source file" "Assembly source file" 
+"C source file" "C source file" 
+[GENERAL_DATA_PROJECT]
+"USE_CUSTOM_LINKAGE_ORDER" "0" 
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"DefaultSession" "C:\githubwork\rx621_sample\rx621_sample\DefaultSession.hsf" 0 
+[GENERAL_DATA_SESSION_DefaultSession]
+[OPTIONS_Debug_Renesas OptLinker]
+"Single Shot" "087abf92b1ba1d10" 5 
+[OPTIONS_Debug_Renesas RX Assembler]
+"Assembly source file" "06e800695f7a1d10" 4 
+"C:\githubwork\rx621_sample\rx621_sample\lowlvl.src" "06e800695f7a1d10" 4 
+"Linkage symbol file" "06e800695f7a1d10" 4 
+[OPTIONS_Debug_Renesas RX C/C++ Compiler]
+"C source file" "06e800695f7a1d10" 2 
+"C++ source file" "092e5d29a79a1d10" 3 
+"C:\githubwork\rx621_sample\rx621_sample\dbsct.c" "06e800695f7a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\dft.c" "0bd99d36759a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\fft_n_small.c" "0c784d96759a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\fft_real_n_recur.c" "0035acd6759a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\hwsetup.c" "06e800695f7a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\hwsetup_rx621.c" "0548f40a978a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\intprg.c" "06e800695f7a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\lowsrc.c" "06e800695f7a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\resetprg.c" "06e800695f7a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\rx621_sample.c" "06e800695f7a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\sbrk.c" "06e800695f7a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\sci.c" "065afcf0c19a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\stack_var_adrs.c" "0ba37f92b1ba1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\util.c" "0e2a2567059a1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\vecttbl.c" "06e800695f7a1d10" 2 
+[OPTIONS_Debug_Renesas RX C/C++ Library Generator]
+"Single Shot" "06e800695f7a1d10" 1 
+[OPTIONS_Debug_Renesas RX Configurator]
+"Single Shot" "0ba37f92b1ba1d10" 6 
+[OPTIONS_Debug]
+"" 0 
+"[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|8] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|LANG|C] [B|RUNTIME|1] [B|CTYPE|1] [B|MATH|1] [B|MATHF|0] [B|STDARG|1] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|NEW|0] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] [S|OUTPUTPATH|^"$(CONFIGDIR)^"] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 6 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 4 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|8] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24]" 2 
+"[V|VERSION|1] [S|LANG|CPP] [B|SJIS|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|DBL_SIZE|8] [S|BASE|00000000=NONE] [I|PID|16]
+" 3 
+"[V|VERSION|6] [B|DEBUG|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).abs^"]  [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [B|OPTIMIZE|0] [S|ROM|(D,R)|(D_1,R_1)|(D_2,R_2)] [S|ENDIAN|LITTLE] [S|FORM|STYPE] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [S|START|B_1,R_1,B_2,R_2,B,R,SU,SI(1000)|PResetPRG(FFFF8000)|C_1,C_2,C,C$*,D_1,D_2,D,P,PIntPRG,W*,L(FFFF8100)|FIXEDVECT(FFFFFFD0)]" 5 
+[EXCLUDED_FILES_Debug]
+[LINKAGE_ORDER_Debug]
+[GENERAL_DATA_CONFIGURATION_Debug]
+[OPTIONS_Release_Renesas OptLinker]
+"Single Shot" "087abf92b1ba1d10" 5 
+[OPTIONS_Release_Renesas RX Assembler]
+"Assembly source file" "06e800695f7a1d10" 4 
+"C:\githubwork\rx621_sample\rx621_sample\lowlvl.src" "06e800695f7a1d10" 4 
+"Linkage symbol file" "06e800695f7a1d10" 4 
+[OPTIONS_Release_Renesas RX C/C++ Compiler]
+"C source file" "09b1695bb5ca1d10" 2 
+"C++ source file" "09b1695bb5ca1d10" 3 
+"C:\githubwork\rx621_sample\rx621_sample\dbsct.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\dft.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\fft_n_small.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\fft_real_n_recur.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\hwsetup.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\hwsetup_rx621.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\intprg.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\lowsrc.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\resetprg.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\rx621_sample.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\sbrk.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\sci.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\stack_var_adrs.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\util.c" "09b1695bb5ca1d10" 2 
+"C:\githubwork\rx621_sample\rx621_sample\vecttbl.c" "09b1695bb5ca1d10" 2 
+[OPTIONS_Release_Renesas RX C/C++ Library Generator]
+"Single Shot" "09b1695bb5ca1d10" 1 
+[OPTIONS_Release_Renesas RX Configurator]
+"Single Shot" "0ba37f92b1ba1d10" 6 
+[OPTIONS_Release]
+"" 0 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] [S|OUTPUTPATH|^"$(CONFIGDIR)^"] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 6 
+"[V|VERSION|1] [B|DEBUG|0] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 4 
+"[V|VERSION|1] [S|LANG|CPP] [B|SJIS|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|DBL_SIZE|8] [S|BASE|00000000=NONE] [I|PID|16]
+" 3 
+"[V|VERSION|1] [S|LANG|C] [B|SJIS|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|DBL_SIZE|8] [S|BASE|00000000=NONE] [I|PID|16]
+" 2 
+"[V|VERSION|1] [S|MODE|BUILD/CHANGED] [S|EXISTOUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|RUNTIME|1] [B|CTYPE|1] [B|MATH|1] [B|STDARG|1] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|SPEED|1] [I|INLINE|100] [I|LOOP|2] [S|CPU|RX600] [S|DBL_SIZE|8] [S|BASE|00000000=NONE] [I|PID|16]
+" 1 
+"[V|VERSION|6] [S|FORM|STYPE] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|0] [S|ROM|(D,R)|(D_1,R_1)|(D_2,R_2)] [S|CRC|NONE|DEFAULT|00000000] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|METHODCUSTOM|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [S|START|B_1,R_1,B_2,R_2,B,R,SU,SI(01000)|PResetPRG(0FFF80000)|C_1,C_2,C,C$*,D_1,D_2,D,P,PIntPRG,W*,L(0FFF80100)|FIXEDVECT(0FFFFFFD0)] [S|MEMORY|HIGH]
+" 5 
+[EXCLUDED_FILES_Release]
+[LINKAGE_ORDER_Release]
+[GENERAL_DATA_CONFIGURATION_Release]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[EXT_DEBUGGER_INFO]
+0 "" "" "" "" 
+[END]
