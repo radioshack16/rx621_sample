@@ -217,7 +217,7 @@ void Excep_MTU0_TGIA0(void)
     int d;
 
     g_ms_abs_count++;
-    g_ms_count = (g_ms_count>=1000) ? 0 : (g_ms_count+1);
+    g_ms_count = (g_ms_count>=999) ? 0 : (g_ms_count+1);
 
     //------------------------------------------------------------
     // Update LEDs

@@ -389,7 +389,7 @@ static void fft_real_init_primitives(void)
     fft_data_heap_ptr = 0;
     fft_data_heap_ptr_max = 0;
 
-    fft_n_samll_init();
+    fft_n_small_init();
 
         // DEBUG
         // SCIprintf("FFT_N_MAX                    = %d\n", FFT_N_MAX);

@@ -127,7 +127,7 @@ double  MTU2_ch3_unit_in_sec(void)
 //---
 // ch3:     for elapsed time measurement
 //  input:  PCLK=48MHz xtal clock
-//          Preacale=1/256 ==> T=5.33us         // NOT 12.8us at the RX220.
+//          Prescale=1/256 ==> T=5.33us         // NOT 12.8us at the RX220.
 //  output: none
 //---
 void MTU2_init(void)
@@ -205,7 +205,7 @@ void MTU2_init(void)
     MTU0.TIER2.BYTE = 0;            //
                                     // except:
     // $$$ SET INTERRUPT
-    MTU0.TIER.BIT.TGIEA = 1;       // Interrupt Enabel by compare-match-A: 0: disable, 1: enable
+    MTU0.TIER.BIT.TGIEA = 1;        // Interrupt Enable by compare-match-A: 0: disable, 1: enable
     //----------------------------------------
     // MTU0 remains stopped here.
     //----------------------------------------
